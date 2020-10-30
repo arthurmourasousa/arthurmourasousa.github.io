@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Arthur - Olá Mundo</title>
+    <style>
+      body {
+      background: #000000;
+    }
+
+    span, p { 
+      color: #0000FF;
+    }
+
+    span {
+      font-size: 50px;
+    }
+    </style>
+  </head>
+  <body>
+    <span>Arthur</span>
+    <p id="nome"></p>
+  </body>  
+  <script>
+    var nome = prompt("Qual é o seu nome?");
+
+    if (nome != null) {
+        document.getElementById("nome").innerHTML = nome + " ,bem vindo ao meu primeiro site.";
+    }
+  </script>
+</html>
